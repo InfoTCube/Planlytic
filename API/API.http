@@ -1,6 +1,20 @@
 @API_HostAddress = http://localhost:5016
 
-GET {{API_HostAddress}}/weatherforecast/
-Accept: application/json
+POST @{{API_HostAddress}}/api/Auth/register
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+  "password": "Test123!",
+  "confirmPassword": "Test123!",
+}
+
+POST @{{API_HostAddress}}/api/Auth/login
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+  "password": "Test123!"
+}
 
 ###

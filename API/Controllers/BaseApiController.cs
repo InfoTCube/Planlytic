@@ -18,6 +18,7 @@ namespace API.Controllers;
 /// without worrying about common setup.
 /// </remarks>
 [ApiController]
+[Route("api/[controller]")]
 public class BaseApiController : ControllerBase
 {
 
