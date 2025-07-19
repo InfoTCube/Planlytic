@@ -9,9 +9,9 @@
 ✅ = implemented, 🔄 = in progress, ⏳ = planned
 
 ### 🔐 Authentication
-- ⏳ User registration & login (JWT-based)
-- ⏳ Protected API routes
-- ⏳ Password hashing & basic user model
+- ✅ User registration & login (JWT-based)
+- ✅ Protected API routes
+- ✅ Password hashing & basic user model
 
 ### 📁 Project & Task Management
 - ⏳ Projects (create, edit, delete)
