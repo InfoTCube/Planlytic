@@ -14,7 +14,7 @@
 - ✅ Password hashing & basic user model
 
 ### 📁 Project & Task Management
-- ⏳ Projects (create, edit, delete)
+- ✅ Projects (create, edit, delete)
 - ⏳ Boards (Kanban columns like To Do, In Progress, Done)
 - ⏳ Task items (CRUD, status, priority, due dates)
 - ⏳ Drag-and-drop tasks between columns
